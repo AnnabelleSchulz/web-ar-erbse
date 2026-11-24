@@ -2,3 +2,5 @@
 #preview-reset{position:fixed;z-index:15;bottom:max(22px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);box-shadow:0 4px 18px #163b3026;white-space:nowrap}body.preview canvas:focus-visible{outline:3px solid #6b9d59;outline-offset:-4px}@media(max-width:540px){body.preview #status{max-width:65%;font-size:11px}}
 
 #welcome h1{font-size:clamp(28px,8vw,38px);overflow-wrap:break-word}
+
+#stop{margin-left:auto}

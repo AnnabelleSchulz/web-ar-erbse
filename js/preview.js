@@ -6,7 +6,10 @@ window.createGardenPreview = (scene,camera) => {
  const state={...defaults}, pointers=new Map(), listeners=[];
  let pinchDistance=0;
  const clamp=(n,a,b)=>Math.max(a,Math.min(b,n));
+ // Keep the camera within the front arc (75 degrees to either side).
+ const maxYaw=75*Math.PI/180;
  const update=()=>{
+  state.yaw=clamp(state.yaw,-maxYaw,maxYaw);
   state.pitch=clamp(state.pitch,0.08,1.4);state.distance=clamp(state.distance,0.85,3.4);
   const r=state.distance*Math.cos(state.pitch);
   camera.object3D.position.set(target.x+r*Math.sin(state.yaw),target.y+state.distance*Math.sin(state.pitch),target.z+r*Math.cos(state.yaw));

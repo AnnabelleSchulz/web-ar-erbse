@@ -30,7 +30,7 @@
   else anchor.setAttribute('mindar-image-target',`targetIndex: ${GARDEN_CONFIG.targetIndex}`);
   anchor.addEventListener('garden-ready',()=>{
    $('start').disabled=false;$('start').textContent='Für Marta 💚';
-   if(preview){$('welcome').hidden=true;$('hud').hidden=false;$('status').textContent='Ziehen: drehen · Scrollen / Pinch: zoomen';$('stop').textContent='Zur AR-Kamera';document.body.classList.add('preview');anchor.components.storybook.active=true;running=true;previewControls=window.createGardenPreview(scene,camera);}
+   if(preview){$('welcome').hidden=true;$('hud').hidden=false;$('status').hidden=true;$('status').textContent='';$('stop').textContent='Zur AR-Kamera';document.body.classList.add('preview');anchor.components.storybook.active=true;running=true;previewControls=window.createGardenPreview(scene,camera);}
   });
   anchor.setAttribute('storybook','');scene.append(anchor);
  }, {once:true});

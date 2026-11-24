@@ -21,5 +21,16 @@ canvas.emit('pointercancel',{pointerId:1});canvas.emit('pointerup',{pointerId:2}
 canvas.emit('wheel',{deltaY:100000,deltaMode:0});assert.ok(distance()<=3.4+1e-9);
 canvas.emit('keydown',{key:'r'});assert.ok(Math.abs(distance()-1.65)<1e-9);assert.equal(position.x,0);
 canvas.emit('keydown',{key:'ArrowRight'});assert.notEqual(position.x,0);reset.emit('click');assert.equal(position.x,0);
+// Large drags and repeated key presses must never orbit behind the scene.
+canvas.emit('pointerdown',{pointerId:3,clientX:0,clientY:0});
+canvas.emit('pointermove',{pointerId:3,clientX:10000,clientY:0});
+assert.ok(Math.abs(Math.atan2(position.x,position.z)+75*Math.PI/180)<1e-9);
+canvas.emit('pointermove',{pointerId:3,clientX:9990,clientY:0});
+assert.ok(Math.atan2(position.x,position.z)>-75*Math.PI/180);
+canvas.emit('pointerup',{pointerId:3});
+for(let i=0;i<100;i++)canvas.emit('keydown',{key:'ArrowRight'});
+assert.ok(Math.abs(Math.atan2(position.x,position.z)-75*Math.PI/180)<1e-9);
+assert.ok(position.z>0);
+reset.emit('click');assert.equal(position.x,0);
 controls.dispose();assert.ok(reset.removed);assert.ok(Object.values(canvas.listeners).every(a=>a.length===0));
-console.log('PASS: orbit drag, touch pinch, zoom limits, keyboard, reset and event cleanup.');
+console.log('PASS: orbit drag, touch pinch, zoom limits, front-only orbit limits, keyboard, reset and event cleanup.');
