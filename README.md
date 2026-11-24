@@ -6,7 +6,7 @@ Statische MindAR-/A-Frame-Anwendung ohne Backend oder Build-Schritt.
 
 1. Den Inhalt dieses Ordners in das Repository kopieren. `index.html`, `targets.mind`, `js`, `assets` und `style.css` liegen zusammen im Repository-Hauptverzeichnis.
 2. GitHub → Settings → Pages → Deploy from a branch → main → / (root) → Save.
-3. Die veröffentlichte HTTPS-Adresse auf dem Smartphone in Safari (iOS) oder Chrome (Android) öffnen, „Wiesenwelt entdecken“ antippen und Kamera erlauben.
+3. Die veröffentlichte HTTPS-Adresse auf dem Smartphone in Safari (iOS) oder Chrome (Android) öffnen, „Für Marta 💚“ antippen und Kamera erlauben.
 4. Die zum vorhandenen `targets.mind` gehörende gedruckte Karte flach hinlegen. Ganze Karte bei gutem Licht erfassen, anschließend leicht schräg darauf schauen.
 
 Alle Pfade sind relativ und funktionieren auch unter `https://NAME.github.io/REPOSITORY/`.
@@ -102,3 +102,14 @@ Der Rollator ist mit `walker.depthOffset: 0.008` minimal vor Oma verschoben. Bei
 Auf dem Boden liegen acht weiche, transparente Silhouettenprojektionen: Körper, beide Beine, Gestell und vier Räder. Sie nutzen die vorhandenen Alpha-Texturen und folgen den Animationen. Die Lichtwirkung ist künstlerisch festgelegt und nicht von der realen Raumbeleuchtung abhängig. `shadows.opacity`, `length`, `height` und `softness` steuern Deckkraft, Schattenlänge, Bodenabstand und weiche Kanten. Die Schatten schreiben selbst keine Tiefenwerte, testen aber gegen die bereits gezeichneten Figuren, damit sie nicht auf die Figuren gemalt werden.
 
 Syntax- und Szenentests bestanden, einschließlich gleichmäßiger Pflanzenabstände, Position von Rollator/linkem Rad und acht flachen Schattenprojektionen. Shaderkompilierung und Erscheinungsbild müssen weiterhin im tatsächlichen Browser geprüft werden.
+
+
+## Abschiedsgruß für Marta und Tracking-Glättung
+
+Startkachel: „Für unsere Lieblingserbse“ mit Abschiedsgruß der ver.di Jugend; Startbutton: „Für Marta 💚“. Nach erfolgreicher Erkennung wird die Statusmeldung ausgeblendet; bei Trackingverlust erscheint der Suchhinweis wieder.
+
+Tracking versuchsweise stärker geglättet: filterMinCF von 0.001 auf 0.0005, filterBeta von 10 auf 1. Das kann Zittern reduzieren, führt aber zu mehr Nachlauf bei Kamerabewegungen. Die Erkennungs-/Verlusttoleranzen bleiben unverändert. Ein Vergleich auf dem Smartphone mit der gedruckten Karte steht aus. Bei störendem Nachlauf zuerst filterBeta wieder erhöhen.
+
+Für die Targetdatei die unverzerrte, exakt zum Druck passende Bildvorlage verwenden, kein schräg aufgenommenes Foto. Im MindAR-Compiler auf viele über die Bildfläche verteilte Merkmale achten. Die vorhandene targets.mind wurde nicht ersetzt; die zugehörige vollständige Druckvorlage liegt hier nicht eindeutig vor. Sehr flache Blickwinkel, Reflexionen und unscharfe Kamerabilder können durch Glättung nicht ausgeglichen werden. Erst die ganze Karte von weiter oben erfassen und dann langsam absenken; die Karte gut beleuchten und eben halten.
+
+Referenz: https://hiukim.github.io/mind-ar-js-doc/quick-start/tracking-config/ und https://hiukim.github.io/mind-ar-js-doc/quick-start/compile/ .

@@ -16,7 +16,8 @@ window.GARDEN_CONFIG = {
    gras_vordere_mitte:0.14,blumen_2:0.20,blumen_3:0.39,gras_vorne:0.44}},
  wind:{amplitude:0.045,speed:1.1},
  butterflies:{speed:0.42,flapsPerSecond:7},
- tracking:{filterMinCF:0.001,filterBeta:10,warmupTolerance:5,missTolerance:8},
+ // Stronger smoothing; validate lag/jitter with the printed card on a phone.
+ tracking:{filterMinCF:0.0005,filterBeta:1,warmupTolerance:5,missTolerance:8},
  cloudScale:1.70,
  clouds:[[-0.24,0.67,-0.39],[0.29,0.57,-0.42]]
 };

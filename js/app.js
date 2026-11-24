@@ -9,7 +9,8 @@
  };
  window.gardenTracking=found=>{
   if(!running||preview)return;
-  $('status').textContent=found?'Omas Wiese ist erwacht.':'Karte suchen · Kamera langsam bewegen';
+  $('status').hidden=found;
+  $('status').textContent=found?'':'Karte suchen · Kamera langsam bewegen';
   $('guide').hidden=found;
  };
  if(!window.AFRAME||!AFRAME.components['mindar-image']){gardenError(Error('A-Frame oder MindAR konnte nicht geladen werden. Prüfe deine Internetverbindung und ob die CDN-Adressen erreichbar sind.'));return;}
@@ -28,7 +29,7 @@
   if(preview){anchor.setAttribute('rotation','-90 0 0');}
   else anchor.setAttribute('mindar-image-target',`targetIndex: ${GARDEN_CONFIG.targetIndex}`);
   anchor.addEventListener('garden-ready',()=>{
-   $('start').disabled=false;$('start').textContent='Wiesenwelt entdecken';
+   $('start').disabled=false;$('start').textContent='Für Marta 💚';
    if(preview){$('welcome').hidden=true;$('hud').hidden=false;$('status').textContent='Ziehen: drehen · Scrollen / Pinch: zoomen';$('stop').textContent='Zur AR-Kamera';document.body.classList.add('preview');anchor.components.storybook.active=true;running=true;previewControls=window.createGardenPreview(scene,camera);}
   });
   anchor.setAttribute('storybook','');scene.append(anchor);
