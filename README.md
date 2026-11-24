@@ -113,3 +113,14 @@ Tracking versuchsweise stärker geglättet: filterMinCF von 0.001 auf 0.0005, fi
 Für die Targetdatei die unverzerrte, exakt zum Druck passende Bildvorlage verwenden, kein schräg aufgenommenes Foto. Im MindAR-Compiler auf viele über die Bildfläche verteilte Merkmale achten. Die vorhandene targets.mind wurde nicht ersetzt; die zugehörige vollständige Druckvorlage liegt hier nicht eindeutig vor. Sehr flache Blickwinkel, Reflexionen und unscharfe Kamerabilder können durch Glättung nicht ausgeglichen werden. Erst die ganze Karte von weiter oben erfassen und dann langsam absenken; die Karte gut beleuchten und eben halten.
 
 Referenz: https://hiukim.github.io/mind-ar-js-doc/quick-start/tracking-config/ und https://hiukim.github.io/mind-ar-js-doc/quick-start/compile/ .
+
+
+## Nachbesserung bei Zittern der gesamten Szene (iPhone/Safari)
+
+Nach Rückmeldung mit identischer Druck-/Targetvorlage: filterBeta von 1 auf 0.01 und filterMinCF von 0.0005 auf 0.0003 reduziert. Die niedrigere adaptive Verstärkung soll kleine Positionssprünge stärker dämpfen; die niedrigere Grenzfrequenz auch langsame Neigungsschwankungen. Mehr Nachlauf bei Kamerabewegungen ist möglich. Das ist eine Testabstimmung, keine bestätigte Behebung auf dem Gerät. Die Erkennungs- und Verlusttoleranzen bleiben gleich.
+
+Der Konfigurationsaufruf in index.html trägt eine neue Versionskennung, damit nach Abruf der neuen HTML-Seite keine alte Konfiguration aus dem Browsercache verwendet wird. Änderungen müssen vor dem Handytest veröffentlicht werden.
+
+Die vorhandene targets.mind bleibt erhalten. Ein passendes Druckbild garantiert keine stabilen Merkmale unter jedem Blickwinkel. Sehr flache Betrachtung, Reflexionen, geringe Bilddetails oder gebogenes Papier können weiterhin Lagefehler verursachen. Zum Vergleich die Karte vollständig und von schräg oben erfassen; alternativ Karte und Handy so neigen, dass mehr Kartenfläche zur Kamera zeigt.
+
+Geprüft wurden die Parameterweitergabe in MindAR 1.2.5 und die Filtergleichungen mit synthetischen Positionsdaten. Dieser Modellvergleich ist kein Kamera-/Gerätetest und sagt keine reale Verbesserungsquote voraus. Quelle: https://github.com/hiukim/mind-ar-js/blob/v1.2.5/src/libs/one-euro-filter.js .
