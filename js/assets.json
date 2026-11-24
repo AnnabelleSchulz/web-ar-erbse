@@ -1,0 +1,717 @@
+{
+  "bein_rechts": {
+    "src": "assets/optimized/bein_rechts_part0.png",
+    "width": 204,
+    "height": 391,
+    "bounds": [
+      1146,
+      2118,
+      1346,
+      2505
+    ]
+  },
+  "bein_links": {
+    "src": "assets/optimized/bein_links_part0.png",
+    "width": 255,
+    "height": 411,
+    "bounds": [
+      638,
+      2098,
+      889,
+      2505
+    ]
+  },
+  "blumen_1": {
+    "src": "assets/optimized/blumen_1.png",
+    "width": 772,
+    "height": 117,
+    "bounds": [
+      81,
+      1481,
+      2909,
+      1896
+    ]
+  },
+  "blumen_2": {
+    "src": "assets/optimized/blumen_2.png",
+    "width": 772,
+    "height": 146,
+    "bounds": [
+      58,
+      1856,
+      2922,
+      2384
+    ]
+  },
+  "blumen_3": {
+    "src": "assets/optimized/blumen_3.png",
+    "width": 772,
+    "height": 134,
+    "bounds": [
+      19,
+      2497,
+      2937,
+      2990
+    ]
+  },
+  "boden": {
+    "src": "assets/optimized/boden.png",
+    "width": 1536,
+    "height": 1536,
+    "bounds": [
+      0,
+      0,
+      3000,
+      3000
+    ]
+  },
+  "gras_hinten_links": {
+    "src": "assets/optimized/gras_hinten_links.png",
+    "width": 320,
+    "height": 258,
+    "bounds": [
+      128,
+      1124,
+      444,
+      1378
+    ]
+  },
+  "gras_hinten_mitte": {
+    "src": "assets/optimized/gras_hinten_mitte.png",
+    "width": 218,
+    "height": 146,
+    "bounds": [
+      2090,
+      1294,
+      2304,
+      1436
+    ]
+  },
+  "gras_hinten_rechts": {
+    "src": "assets/optimized/gras_hinten_rechts.png",
+    "width": 302,
+    "height": 231,
+    "bounds": [
+      2547,
+      1276,
+      2845,
+      1503
+    ]
+  },
+  "gras_mitte": {
+    "src": "assets/optimized/gras_mitte.png",
+    "width": 772,
+    "height": 51,
+    "bounds": [
+      60,
+      1761,
+      2685,
+      1922
+    ]
+  },
+  "gras_rechts_hinten_2": {
+    "src": "assets/optimized/gras_rechts_hinten_2.png",
+    "width": 772,
+    "height": 149,
+    "bounds": [
+      1967,
+      1435,
+      2919,
+      1615
+    ]
+  },
+  "gras_vordere_mitte": {
+    "src": "assets/optimized/gras_vordere_mitte.png",
+    "width": 772,
+    "height": 92,
+    "bounds": [
+      242,
+      2092,
+      2942,
+      2400
+    ]
+  },
+  "gras_vorne": {
+    "src": "assets/optimized/gras_vorne.png",
+    "width": 772,
+    "height": 153,
+    "bounds": [
+      75,
+      2333,
+      2932,
+      2888
+    ]
+  },
+  "linie_schmetterling_blau": {
+    "src": "assets/optimized/linie_schmetterling_blau.png",
+    "width": 272,
+    "height": 171,
+    "bounds": [
+      115,
+      601,
+      383,
+      768
+    ]
+  },
+  "linie_schmetterling_rosa": {
+    "src": "assets/optimized/linie_schmetterling_rosa.png",
+    "width": 321,
+    "height": 134,
+    "bounds": [
+      2020,
+      605,
+      2337,
+      735
+    ]
+  },
+  "oma_erbse": {
+    "src": "assets/optimized/oma_erbse_part0.png",
+    "width": 514,
+    "height": 516,
+    "bounds": [
+      454,
+      530,
+      2079,
+      2160
+    ]
+  },
+  "rad": {
+    "src": "assets/optimized/rad_part0.png",
+    "width": 298,
+    "height": 325,
+    "bounds": [
+      1334,
+      2392,
+      1628,
+      2713
+    ]
+  },
+  "rollator": {
+    "src": "assets/optimized/rollator_part0.png",
+    "width": 516,
+    "height": 420,
+    "bounds": [
+      1334,
+      1656,
+      2452,
+      2564
+    ]
+  },
+  "schmetterling_blau_1": {
+    "src": "assets/optimized/schmetterling_blau_1.png",
+    "width": 318,
+    "height": 330,
+    "bounds": [
+      331,
+      248,
+      645,
+      574
+    ]
+  },
+  "schmetterling_blau_2": {
+    "src": "assets/optimized/schmetterling_blau_2.png",
+    "width": 230,
+    "height": 303,
+    "bounds": [
+      331,
+      275,
+      557,
+      574
+    ]
+  },
+  "schmetterling_gelb_1": {
+    "src": "assets/optimized/schmetterling_gelb_1.png",
+    "width": 273,
+    "height": 237,
+    "bounds": [
+      2542,
+      911,
+      2811,
+      1144
+    ]
+  },
+  "schmetterling_gelb_2": {
+    "src": "assets/optimized/schmetterling_gelb_2.png",
+    "width": 190,
+    "height": 236,
+    "bounds": [
+      2625,
+      912,
+      2811,
+      1144
+    ]
+  },
+  "schmetterling_rosa_1": {
+    "src": "assets/optimized/schmetterling_rosa_1.png",
+    "width": 291,
+    "height": 275,
+    "bounds": [
+      2302,
+      352,
+      2589,
+      623
+    ]
+  },
+  "schmetterling_rosa_2": {
+    "src": "assets/optimized/schmetterling_rosa_2.png",
+    "width": 160,
+    "height": 216,
+    "bounds": [
+      2306,
+      353,
+      2462,
+      565
+    ]
+  },
+  "wolken": {
+    "src": "assets/optimized/wolken.png",
+    "width": 772,
+    "height": 338,
+    "bounds": [
+      618,
+      129,
+      3000,
+      1166
+    ]
+  },
+  "blumen_1_part0": {
+    "src": "assets/optimized/blumen_1_part0.png",
+    "width": 172,
+    "height": 233,
+    "bounds": [
+      80,
+      1481,
+      248,
+      1710
+    ]
+  },
+  "blumen_1_part1": {
+    "src": "assets/optimized/blumen_1_part1.png",
+    "width": 165,
+    "height": 228,
+    "bounds": [
+      288,
+      1497,
+      449,
+      1721
+    ]
+  },
+  "blumen_1_part2": {
+    "src": "assets/optimized/blumen_1_part2.png",
+    "width": 199,
+    "height": 407,
+    "bounds": [
+      2304,
+      1494,
+      2499,
+      1897
+    ]
+  },
+  "blumen_1_part3": {
+    "src": "assets/optimized/blumen_1_part3.png",
+    "width": 126,
+    "height": 113,
+    "bounds": [
+      2158,
+      1511,
+      2280,
+      1620
+    ]
+  },
+  "blumen_1_part4": {
+    "src": "assets/optimized/blumen_1_part4.png",
+    "width": 161,
+    "height": 183,
+    "bounds": [
+      2548,
+      1553,
+      2705,
+      1732
+    ]
+  },
+  "blumen_1_part5": {
+    "src": "assets/optimized/blumen_1_part5.png",
+    "width": 166,
+    "height": 207,
+    "bounds": [
+      2748,
+      1657,
+      2910,
+      1860
+    ]
+  },
+  "blumen_2_part0": {
+    "src": "assets/optimized/blumen_2_part0.png",
+    "width": 159,
+    "height": 196,
+    "bounds": [
+      239,
+      1855,
+      394,
+      2047
+    ]
+  },
+  "blumen_2_part1": {
+    "src": "assets/optimized/blumen_2_part1.png",
+    "width": 378,
+    "height": 461,
+    "bounds": [
+      2549,
+      1904,
+      2923,
+      2361
+    ]
+  },
+  "blumen_2_part2": {
+    "src": "assets/optimized/blumen_2_part2.png",
+    "width": 195,
+    "height": 241,
+    "bounds": [
+      438,
+      1998,
+      629,
+      2235
+    ]
+  },
+  "blumen_2_part3": {
+    "src": "assets/optimized/blumen_2_part3.png",
+    "width": 168,
+    "height": 233,
+    "bounds": [
+      57,
+      2045,
+      221,
+      2274
+    ]
+  },
+  "blumen_2_part4": {
+    "src": "assets/optimized/blumen_2_part4.png",
+    "width": 168,
+    "height": 146,
+    "bounds": [
+      290,
+      2209,
+      454,
+      2351
+    ]
+  },
+  "blumen_2_part5": {
+    "src": "assets/optimized/blumen_2_part5.png",
+    "width": 149,
+    "height": 182,
+    "bounds": [
+      988,
+      2206,
+      1133,
+      2384
+    ]
+  },
+  "blumen_3_part0": {
+    "src": "assets/optimized/blumen_3_part0.png",
+    "width": 201,
+    "height": 242,
+    "bounds": [
+      19,
+      2497,
+      216,
+      2735
+    ]
+  },
+  "blumen_3_part1": {
+    "src": "assets/optimized/blumen_3_part1.png",
+    "width": 277,
+    "height": 298,
+    "bounds": [
+      898,
+      2655,
+      1171,
+      2949
+    ]
+  },
+  "blumen_3_part2": {
+    "src": "assets/optimized/blumen_3_part2.png",
+    "width": 211,
+    "height": 271,
+    "bounds": [
+      2730,
+      2674,
+      2937,
+      2941
+    ]
+  },
+  "blumen_3_part3": {
+    "src": "assets/optimized/blumen_3_part3.png",
+    "width": 188,
+    "height": 173,
+    "bounds": [
+      147,
+      2773,
+      331,
+      2942
+    ]
+  },
+  "blumen_3_part4": {
+    "src": "assets/optimized/blumen_3_part4.png",
+    "width": 182,
+    "height": 208,
+    "bounds": [
+      1514,
+      2787,
+      1692,
+      2991
+    ]
+  },
+  "wolken_part0": {
+    "src": "assets/optimized/wolken_part0.png",
+    "width": 516,
+    "height": 284,
+    "bounds": [
+      617,
+      124,
+      1622,
+      673
+    ]
+  },
+  "wolken_part1": {
+    "src": "assets/optimized/wolken_part1.png",
+    "width": 516,
+    "height": 318,
+    "bounds": [
+      2225,
+      692,
+      3000,
+      1167
+    ]
+  },
+  "gras_mitte_part0": {
+    "src": "assets/optimized/gras_mitte_part0.png",
+    "width": 176,
+    "height": 167,
+    "bounds": [
+      2514,
+      1760,
+      2686,
+      1923
+    ]
+  },
+  "gras_mitte_part1": {
+    "src": "assets/optimized/gras_mitte_part1.png",
+    "width": 188,
+    "height": 116,
+    "bounds": [
+      60,
+      1765,
+      244,
+      1877
+    ]
+  },
+  "gras_rechts_hinten_2_part0": {
+    "src": "assets/optimized/gras_rechts_hinten_2_part0.png",
+    "width": 112,
+    "height": 102,
+    "bounds": [
+      1966,
+      1435,
+      2074,
+      1533
+    ]
+  },
+  "gras_rechts_hinten_2_part1": {
+    "src": "assets/optimized/gras_rechts_hinten_2_part1.png",
+    "width": 116,
+    "height": 103,
+    "bounds": [
+      2808,
+      1516,
+      2920,
+      1615
+    ]
+  },
+  "gras_vordere_mitte_part0": {
+    "src": "assets/optimized/gras_vordere_mitte_part0.png",
+    "width": 102,
+    "height": 98,
+    "bounds": [
+      241,
+      2092,
+      339,
+      2186
+    ]
+  },
+  "gras_vordere_mitte_part1": {
+    "src": "assets/optimized/gras_vordere_mitte_part1.png",
+    "width": 113,
+    "height": 111,
+    "bounds": [
+      1314,
+      2147,
+      1423,
+      2254
+    ]
+  },
+  "gras_vordere_mitte_part2": {
+    "src": "assets/optimized/gras_vordere_mitte_part2.png",
+    "width": 102,
+    "height": 96,
+    "bounds": [
+      2845,
+      2185,
+      2943,
+      2277
+    ]
+  },
+  "gras_vordere_mitte_part3": {
+    "src": "assets/optimized/gras_vordere_mitte_part3.png",
+    "width": 77,
+    "height": 70,
+    "bounds": [
+      2503,
+      2335,
+      2576,
+      2401
+    ]
+  },
+  "gras_vorne_part0": {
+    "src": "assets/optimized/gras_vorne_part0.png",
+    "width": 115,
+    "height": 101,
+    "bounds": [
+      74,
+      2333,
+      185,
+      2430
+    ]
+  },
+  "gras_vorne_part1": {
+    "src": "assets/optimized/gras_vorne_part1.png",
+    "width": 308,
+    "height": 214,
+    "bounds": [
+      2629,
+      2420,
+      2933,
+      2630
+    ]
+  },
+  "gras_vorne_part2": {
+    "src": "assets/optimized/gras_vorne_part2.png",
+    "width": 140,
+    "height": 174,
+    "bounds": [
+      368,
+      2447,
+      504,
+      2617
+    ]
+  },
+  "gras_vorne_part3": {
+    "src": "assets/optimized/gras_vorne_part3.png",
+    "width": 44,
+    "height": 137,
+    "bounds": [
+      310,
+      2459,
+      350,
+      2592
+    ]
+  },
+  "gras_vorne_part4": {
+    "src": "assets/optimized/gras_vorne_part4.png",
+    "width": 45,
+    "height": 123,
+    "bounds": [
+      237,
+      2465,
+      278,
+      2584
+    ]
+  },
+  "gras_vorne_part5": {
+    "src": "assets/optimized/gras_vorne_part5.png",
+    "width": 121,
+    "height": 110,
+    "bounds": [
+      736,
+      2586,
+      853,
+      2692
+    ]
+  },
+  "gras_vorne_part6": {
+    "src": "assets/optimized/gras_vorne_part6.png",
+    "width": 357,
+    "height": 269,
+    "bounds": [
+      407,
+      2624,
+      760,
+      2889
+    ]
+  },
+  "gras_vorne_part7": {
+    "src": "assets/optimized/gras_vorne_part7.png",
+    "width": 104,
+    "height": 92,
+    "bounds": [
+      2582,
+      2671,
+      2682,
+      2759
+    ]
+  },
+  "oma_erbse_part0": {
+    "src": "assets/optimized/oma_erbse_part0.png",
+    "width": 514,
+    "height": 516,
+    "bounds": [
+      454,
+      530,
+      2079,
+      2160
+    ]
+  },
+  "bein_links_part0": {
+    "src": "assets/optimized/bein_links_part0.png",
+    "width": 255,
+    "height": 411,
+    "bounds": [
+      638,
+      2098,
+      889,
+      2505
+    ]
+  },
+  "bein_rechts_part0": {
+    "src": "assets/optimized/bein_rechts_part0.png",
+    "width": 204,
+    "height": 391,
+    "bounds": [
+      1146,
+      2118,
+      1346,
+      2505
+    ]
+  },
+  "rollator_part0": {
+    "src": "assets/optimized/rollator_part0.png",
+    "width": 516,
+    "height": 420,
+    "bounds": [
+      1334,
+      1656,
+      2452,
+      2564
+    ]
+  },
+  "rad_part0": {
+    "src": "assets/optimized/rad_part0.png",
+    "width": 298,
+    "height": 325,
+    "bounds": [
+      1334,
+      2392,
+      1628,
+      2713
+    ]
+  }
+}
