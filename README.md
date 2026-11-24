@@ -1,33 +1,8 @@
 # pea-web-ar
 
-WebAR-Abschiedskarte für Marta von der ver.di Jugend. Die Webseite erkennt die gedruckte Karte und zeigt darauf eine animierte Szene. Eine Vorschau ohne Kamera ist ebenfalls verfügbar.
+Die Webseite erkennt die gedruckte Karte und zeigt darauf eine animierte Szene. Eine Vorschau ohne Kamera ist ebenfalls verfügbar.
 
 Statische Webseite mit A-Frame 1.5.0 und MindAR 1.2.5. Kein Backend und kein Build-Schritt.
-
-## Starten
-
-Die Seite auf dem Smartphone öffnen, „Für Marta 💚“ antippen und den Kamerazugriff erlauben. Die Karte vollständig ins Bild nehmen. Nach der Erkennung verschwindet der Suchhinweis.
-
-Über „Ohne Kamera ansehen“ oder `?preview=1` lässt sich die Szene ohne Kamerazugriff öffnen:
-
-- Ziehen mit Maus oder Finger dreht und neigt die Ansicht. Die Drehung ist auf 75° nach links und rechts begrenzt.
-- Mausrad oder zwei Finger ändern den Zoom.
-- „Ansicht zurücksetzen“ stellt die Ausgangsansicht wieder her.
-- Bei fokussierter Szene funktionieren auch Pfeiltasten, +/− und R.
-
-## Bereitstellen
-
-Die Dateien im Hauptverzeichnis des Repositories belassen. Für GitHub Pages unter **Settings → Pages** die Veröffentlichung aus dem gewünschten Branch und dem Ordner **/ (root)** aktivieren.
-
-Kamerazugriff benötigt HTTPS oder localhost. Die Bibliotheken werden von externen CDNs geladen; dafür ist eine Internetverbindung erforderlich.
-
-Für eine lokale Vorschau bei installiertem Python im Projektordner ausführen:
-
-```sh
-python -m http.server 8080
-```
-
-Anschließend [localhost:8080/?preview=1](http://localhost:8080/?preview=1) öffnen. Eine unverschlüsselte LAN-Adresse genügt für den Kamerazugriff auf dem Smartphone nicht.
 
 ## Projektstruktur
 
@@ -68,9 +43,3 @@ node tools/test-preview.cjs
 ```
 
 Sie prüfen Szenenaufbau, Animationen und Vorschau-Steuerung mit vereinfachten Testadaptern. Darstellung und Tracking müssen zusätzlich im Browser mit der gedruckten Karte geprüft werden, einschließlich Kamerafreigabe, Wiedererkennung und Rückkehr aus dem Hintergrund.
-
-## Dokumentation
-
-- [A-Frame 1.5.0](https://aframe.io/docs/1.5.0/)
-- [MindAR](https://hiukim.github.io/mind-ar-js-doc/)
-- [MindAR-Tracking-Einstellungen](https://hiukim.github.io/mind-ar-js-doc/quick-start/tracking-config/)
